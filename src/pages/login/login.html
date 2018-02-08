@@ -1,0 +1,24 @@
+<ion-content padding class="background" ion-scroll scrollbar-x="false" persistent="true" drag-content="false">
+  <div class="header">Aubaun´s Hofübersicht</div>
+  <ion-card class="login">
+    <ion-card-header>
+        <div class="loginheader" align="center">Anmeldung</div>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-list no-lines>
+        <form (submit)="doLogin()" novalidate>
+        <ion-item class="logininputtop" >
+          <ion-input [(ngModel)]="loginData.username" name="username" type="text" placeholder="Benutzername"></ion-input>
+        </ion-item>
+        
+        <ion-item class="logininputbottom">
+          <ion-input [(ngModel)]="loginData.password" name="password" type="password" placeholder="Kennwort"></ion-input>
+        </ion-item>
+        <br>
+        <button class="loginbutton" type="submit" ion-button block color="schaf">VERBINDEN</button>
+        </form>
+        </ion-list>  
+    </ion-card-content>
+  </ion-card>
+  <div class="footer">Version: 20170705 (developmentBuild)</div>
+ </ion-content>

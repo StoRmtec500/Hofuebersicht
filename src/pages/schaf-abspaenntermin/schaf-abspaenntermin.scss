@@ -1,0 +1,91 @@
+page-schaf-abspaenntermin {
+
+.header {
+        background-color: #212121;
+    }
+
+    .scroll-content {
+        left: 0px;
+        background-color: #e8e8e8;
+    }
+
+        .schafe_farbe {
+        height: 15px;
+        width: 15px;
+    }
+
+    #schaf_nr {
+        margin-top: -15px;
+        padding-left: 18px;
+    }
+
+         .schafe_ablamm .label {
+        margin: 1px, 1px, 1px, 1px;
+    }
+   
+  .schaf_ablamm_header {
+        text-align: center;
+    }
+
+        .even { 
+        background: #e8e8e8; 
+        }
+    
+   .list-inline {
+        list-style: none;
+        padding-left: 0px;
+        margin-left: -5px;
+    }
+
+    .list-inline>li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+    }
+
+    .panel {
+        background-color: transparent;
+        color: #fff;
+        //border-color: #a3a3a3;
+        //border: 1px solid transparent;
+        margin-bottom: 10px;
+      //  -webkit-box-shadow: 0 4px 0px rgba(0,0,0, .1);
+      //  box-shadow: 0 1px 4px 0px rgba(0,0,0, .1);
+      
+    }
+
+
+    .white-box {
+        background-color: #fff;
+      ///  color: #fff;
+        padding: 25px 25px 10px 25px;
+        margin-bottom: 30px;
+        margin-left: 20px;
+        box-shadow: 0 1px 4px 0 rgba(0,0,0, .1);
+        //opacity: 0.6;
+        opacity: 0.9;
+        border-radius: 10px;
+    }
+
+    .schafe_ablamm .label {
+        margin: 1px, 1px, 1px, 1px;
+    }
+
+    .white-box .box-title {
+        font-weight: 500;
+        text-transform: uppercase;
+        font-size: 18px;
+    }
+
+}
+
+
+ion-item.schafe_ablamm.item.item-block.item {
+    text-align: center;
+    font-size: 14px;
+    padding-left: 0px;
+    }
+
+ion-item.menu_schafe_list.item.item-block.item-ios {
+    background-color: #e8e8e8;
+}

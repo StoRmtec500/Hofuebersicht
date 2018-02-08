@@ -1,0 +1,42 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "at.co.mksoft.Schaf"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "at.co.mksoft.Schaf"
+        },
+        "cordova-plugin-screen-orientation": {
+            "PACKAGE_NAME": "at.co.mksoft.Schaf"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "at.co.mksoft.Schaf"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "at.co.mksoft.Schaf"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "at.co.mksoft.Schaf"
+        },
+        "ionic-plugin-deploy": {
+            "PACKAGE_NAME": "at.co.mksoft.Schaf"
+        },
+        "ionic-plugin-keyboard": {
+            "PACKAGE_NAME": "at.co.mksoft.Schaf"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "at.co.mksoft.Schaf"
+        },
+        "cordova-plugin-email-composer": {
+            "PACKAGE_NAME": "at.co.mksoft.Schaf"
+        }
+    },
+    "dependent_plugins": {}
+}

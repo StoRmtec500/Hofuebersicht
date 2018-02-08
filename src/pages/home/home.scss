@@ -1,0 +1,128 @@
+page-home {
+    .icons {
+        color: #fff;
+        height: 45px;
+        width: 55px;
+    }
+
+    .scroll-content {
+        left:60px;
+    }
+
+    .svgsheepblack {
+        background: url('../assets/images/sheep_black.svg') no-repeat;
+        background-size: contain;
+        height: 55px;
+        margin-bottom: -6px;
+    }
+
+        .svgchicken {
+        background: url('../assets/images/chicken_black.svg') no-repeat;
+        background-size: contain;
+        height: 48px;
+        margin-bottom: -2px;
+    }
+
+    .svgiconsheep {
+        background: url('../assets/images/sheep_green.svg') no-repeat;
+        background-size: contain;
+        width: 31px;
+        height: 27px;
+        background-size: 31px 27px;
+    }
+
+        .svgiconchicken {
+        background: url('../assets/images/chicken_white.svg') no-repeat;
+        background-size: contain;
+        width: 31px;
+        height: 27px;
+        background-size: 31px 27px;
+    }
+
+    .svgiconhome {
+        background: url('../assets/images/home_white.svg') no-repeat;
+        background-size: contain;
+        width: 27px;
+        height: 27px;
+        background-size: 27px 27px;
+    }
+
+@media only screen and (min-width:667px) 
+    {
+        .navbar-left-fixed-full{
+        background-color: #212121;
+        display: block;
+        height: 100%;
+        width: 100%;
+        max-width: 60px;
+        position: absolute;
+        z-index: 11;
+        }
+
+        .firsticon {
+            bottom: 10px;
+            position: relative;
+        }
+
+        .icons {
+         margin-left: 2px;
+         margin-top: 60px;
+       //  width: 45%;
+        }
+
+        .lasticon {
+            bottom: 50px;
+            position: absolute;
+            left: 0px;
+        }
+
+
+        .scroll-content {
+        left:60px;
+        overflow: auto;
+        border-right: 1px solid #dedede;
+        }
+
+            .rowuebersicht {
+        margin-bottom: 5px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    }
+
+    @media only screen and (min-width : 0px) and (max-width : 666px) 
+    {
+        .navbar-left-fixed-full{
+            background-color: #212121;
+            height: 100%;
+            width: 100%;
+            max-height: 55px;
+            max-width: 100%;
+            position: absolute;
+            bottom: 0px;
+            z-index: 11;
+            }
+    
+        .icons {
+            width: 23%;
+        }
+
+            .header {
+            left: 0px;
+        }
+
+        .scroll-content {
+            left:0px;
+        }
+
+            .rowuebersicht {
+        margin-bottom: 5px;
+        margin-left: -30px;
+        margin-right: -10px;
+    }
+    }
+
+}
+
+
+

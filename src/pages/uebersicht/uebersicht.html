@@ -1,0 +1,147 @@
+<ion-header ion-fixed no-bounce>
+    <ion-navbar color="schaf"  class="header">
+      <ion-title>Hofübersicht</ion-title>
+    </ion-navbar>
+</ion-header>
+<div class="topnav" ion-fixed no-bounce></div>
+<div class="navbar-left-fixed-full" ion-fixed no-bounce>
+  <button class="icons firsticon" ion-button icon-only clear >
+    <ion-icon class="svgiconhome"></ion-icon>
+  </button>
+    <button class="icons" ion-button (click)="stall_schaf()" icon-only clear>
+    <ion-icon class="svgiconsheep"></ion-icon>
+    </button>
+    <button class="icons" ion-button  icon-only clear>
+    <ion-icon class="svgiconchicken"></ion-icon>
+    </button>
+  <button class="icons lasticon" ion-button #loginpage (click)="logout()" icon-only clear>
+    <ion-icon name="log-out"></ion-icon>
+  </button>
+</div>
+
+  
+
+<ion-content has-bouncing="false" padding class="background" id="scrollbar">
+  <div class="panel">
+  <ion-grid>
+  <ion-row>
+    <ion-col  class="username">
+      Hallo {{ username }} !
+    </ion-col>
+    <ion-col  class="date" >
+      {{ myDate }}
+    </ion-col>
+  </ion-row>
+</ion-grid>
+  </div>
+    <ion-grid>
+    <div class="rowuebersicht">
+  <ion-row >
+    <ion-col col-12 col-sm>
+      <div class="white-box">
+        <h3 class="box-title">Anzahl Schafe </h3>
+       <ul class="list-inline two-part">
+         <li>
+           <div class="svgsheepblack">
+           </div>
+         </li>
+         <li class="text-right">
+            <span class="countersheep">{{ sheepcounter }}</span>
+         </li>
+       </ul>
+      </div>
+    </ion-col>
+    <ion-col col-12 col-sm>
+      <div class="white-box">
+       <h3 class="box-title"> Anzahl Hühner </h3>
+         <ul class="list-inline two-part">
+         <li>
+           <div class="svgchicken">
+           </div>
+         </li>
+         <li class="text-right">
+            <span class="counterhuehner">{{'{}'}}</span>
+         </li>
+       </ul>
+      </div>
+    </ion-col>
+ </ion-row>
+   </div>
+</ion-grid>
+ <ion-grid>
+    <div class="rowuebersicht">
+  <ion-row>
+    <ion-col col-12 col-sm>
+      <div class="white-box">
+        <h3 class="box-title">Ablammtermine </h3>
+ <ion-grid>
+<ion-item class="schafe_ablamm">
+    <ion-row class="schaf_ablamm_header">
+    <ion-col><div class="schafe_farbe"></div>
+  <div id="schaf_nr"> SchafNr:</div>
+    </ion-col>
+    <ion-col >
+      AMA-Nummer:
+    </ion-col>
+    <ion-col>
+      Merkmal:
+    </ion-col>
+    <ion-col >
+        Geb-Datum:
+    </ion-col>
+        <ion-col >
+         Ablammtermin: 
+    </ion-col>
+
+  </ion-row>
+</ion-item>
+</ion-grid>
+  <ion-grid>
+     <ion-item no-lines *ngFor="let item of ablammTermine; index as i; odd as isOdd; even as isEven" [class.odd]="isOdd" 
+    [class.even]="isEven" class="schafe_ablamm">
+  <ion-row>
+    <ion-col><div class="schafe_farbe"  [ngStyle]="{ 'background': item.webcolor + '' }"></div>
+  <div id="schaf_nr"><a (click)="getSheepDetail(item.schaf_nr)">   {{ item.schaf_nr }}</a> </div>
+    </ion-col>
+    <ion-col >
+      
+      {{ item.ama_nummer }}
+    </ion-col>
+    <ion-col >
+      {{ item.merkmal }}
+    </ion-col>
+    <ion-col >
+      {{ item.geburtsdatum | date: 'dd.MM.yyyy'}}
+    </ion-col>
+        <ion-col >
+      {{ item.zum_widder_datum | date: 'dd.MM.yyyy'}}
+    </ion-col>
+
+  </ion-row>
+  </ion-item>
+</ion-grid>
+  
+
+      </div>
+    </ion-col>
+  
+ </ion-row>
+   </div>
+</ion-grid>
+
+
+  <div class="footer">
+  <ion-grid>
+  <ion-row>
+
+    <ion-col  class="date" >
+      Network: {{ link }} <br />
+      Version: 20170705 (developmentBuild)
+    </ion-col>
+  </ion-row>
+</ion-grid>
+  </div>
+
+</ion-content>
+
+<ion-nav [root]="UebersichtPage" #menuContent  swipeBackEnabled="false" main></ion-nav>

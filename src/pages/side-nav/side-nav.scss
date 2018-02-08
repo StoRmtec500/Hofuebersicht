@@ -1,0 +1,85 @@
+page-side-nav {
+
+        .header {
+        left: 60px;
+        background-color: #212121;
+    }
+
+    .svgiconsheep {
+        background: url('../assets/images/sheep_green.svg') no-repeat;
+        background-size: contain;
+        width: 31px;
+        height: 27px;
+        background-size: 31px 27px;
+    }
+
+      .svgiconhome {
+        background: url('../assets/images/home_white.svg') no-repeat;
+        background-size: contain;
+        width: 27px;
+        height: 27px;
+        background-size: 27px 27px;
+    }
+
+        .menu_schafe {
+        background: #e8e8e8;
+    }
+}
+
+button.button_menu_schafe.nohover {
+    background-color: #e8e8e8;
+    color: #d9d9d9;
+    
+    cursor: not-allowed;
+}
+
+button.button_menu_schafe.nohover:hover {
+    background-color: #e8e8e8;
+    
+    cursor: not-allowed;
+}
+
+ion-item.menu_schafe_list.item.item-block.item-md {
+    background-color: #e8e8e8;
+}
+
+button.button_menu_schafe {
+    height: 40px;
+    display: block;
+    width: 100%;
+    background-color: #e8e8e8;
+    font-size: 16px;
+    text-align: left;
+    font-weight: 400;
+}
+
+button.button_menu_schafe:hover {
+
+    background-color: #83b817;
+
+}
+
+    .split-pane-ios.split-pane-visible >.split-pane-side {
+max-width: 90px !important;
+
+}
+.toolbar-background-md {
+    background:color($colors,'schaf');
+}
+.split-pane-md.split-pane-visible >.split-pane-side {
+max-width: 250px !important;
+min-width: 250px;
+border-right: 0px solid #dedede;
+}
+
+.split-pane-ios.split-pane-visible >.split-pane-side {
+max-width: 240px !important;
+min-width: 240px;
+border-right: 0px solid #dedede;
+}
+
+.toolbar-background-ios {
+    background:color($colors,'schaf');
+}
+
+

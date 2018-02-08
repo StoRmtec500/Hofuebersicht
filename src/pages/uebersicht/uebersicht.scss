@@ -1,0 +1,314 @@
+page-uebersicht {
+    .icons {
+        color: #fff;
+        height: 45px;
+        width: 55px;
+    }
+
+    .header {
+        left: 60px;
+        background-color: #212121;
+    }
+
+    .background .modal {
+    height: 900px;
+    }
+
+    .modal-wrapper {
+    height: 900px;
+}
+
+    .scroll-content {
+        left:60px;
+    }
+
+    .date {
+        text-align: right;
+        font-size: 13px;
+        margin-top: 2px;
+    } 
+
+    .schafe_farbe {
+        height: 15px;
+        width: 15px;
+    }
+
+    .footer {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    overflow: hidden;
+    color: #fff;
+    text-align: right;
+    right: 0px;
+    }
+
+    #schaf_nr {
+        margin-top: -15px;
+        padding-left: 18px;
+    }
+
+    .panel {
+        background-color: transparent;
+        color: #fff;
+        //border-color: #a3a3a3;
+        //border: 1px solid transparent;
+        margin-bottom: 10px;
+      //  -webkit-box-shadow: 0 4px 0px rgba(0,0,0, .1);
+      //  box-shadow: 0 1px 4px 0px rgba(0,0,0, .1);
+      
+    }
+
+
+    .white-box {
+        background-color: #fff;
+      ///  color: #fff;
+        padding: 25px 25px 10px 25px;
+        margin-bottom: 30px;
+        margin-left: 20px;
+        box-shadow: 0 1px 4px 0 rgba(0,0,0, .1);
+        //opacity: 0.6;
+        opacity: 0.9;
+        border-radius: 10px;
+    }
+
+    .schafe_ablamm .label {
+        margin: 1px, 1px, 1px, 1px;
+    }
+
+    .white-box .box-title {
+        font-weight: 500;
+        text-transform: uppercase;
+        font-size: 18px;
+    }
+
+    .schaf_ablamm_header {
+        text-align: center;
+    }
+
+    .svgsheepblack {
+        background: url('../assets/images/sheep_black.svg') no-repeat;
+        background-size: contain;
+        height: 55px;
+        margin-bottom: -6px;
+    }
+
+    .even { 
+        background: #e8e8e8; 
+        }
+
+
+        .svgchicken {
+        background: url('../assets/images/chicken_black.svg') no-repeat;
+        background-size: contain;
+        height: 48px;
+        margin-bottom: -2px;
+    }
+
+    .text-right {
+        text-align: right;
+    }
+
+    .svgiconsheep {
+        background: url('../assets/images/sheep_white.svg') no-repeat;
+        background-size: contain;
+        width: 31px;
+        height: 27px;
+        background-size: 31px 27px;
+    }
+
+        .svgiconchicken {
+        background: url('../assets/images/chicken_white.svg') no-repeat;
+        background-size: contain;
+        width: 31px;
+        height: 27px;
+        background-size: 31px 27px;
+    }
+
+    .svgiconhome {
+        background: url('../assets/images/home_green.svg') no-repeat;
+        background-size: contain;
+        width: 27px;
+        height: 27px;
+        background-size: 27px 27px;
+    }
+
+    .list-inline {
+        list-style: none;
+        padding-left: 0px;
+        margin-left: -5px;
+    }
+
+    .list-inline>li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+    }
+
+    .two-part li span {
+    font-size: 55px;
+    }
+
+    .two-part li {
+        width: 49%;
+    }
+
+    .username {
+        font-size: 18px;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+
+    .background {
+      background-color: #e8e8e8;
+     // background-image: -webkit-linear-gradient(top,#5191d8,#7dade2);
+             background: url('../assets/background/bg2.jpg') no-repeat center center fixed;
+         -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;         /* Generic*/
+    overflow: hidden;
+    opacity: 1;
+    }
+
+    .countersheep {
+        color: #8B4513;
+    }
+
+    .counterhuehner {
+        color: #228b22;
+    }
+
+    .toolbar_own {
+        min-height: 30px !important;
+    }
+
+      .schaf_ablamm_header {
+        text-align: left;
+        font-weight: 600;
+    }
+
+
+.label {
+    margin: 0px 0px 0px 0;
+}
+    @media only screen and (min-width:667px) 
+    {
+
+    ion-item.schafe_ablamm.item.item-block.item {
+    text-align: left;
+    font-size: 14px;
+    padding-left: 0px;
+    }
+
+        .navbar-left-fixed-full{
+        background-color: #212121;
+        display: block;
+        height: 100%;
+        width: 100%;
+        max-width: 60px;
+        position: absolute;
+        z-index: 11;
+        }
+
+        .firsticon {
+            bottom: 10px;
+            position: relative;
+        }
+
+        .icons {
+         margin-left: 2px;
+         margin-top: 60px;
+       //  width: 45%;
+        }
+
+        .lasticon {
+            bottom: 50px;
+            position: absolute;
+            left: 0px;
+        }
+
+        .header {
+        left: 60px;
+        }
+
+        .scroll-content {
+        left:60px;
+        overflow: auto;
+        }
+
+            .rowuebersicht {
+        margin-bottom: 5px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    }
+
+    @media only screen and (min-width : 0px) and (max-width : 666px) 
+    {
+        .navbar-left-fixed-full{
+            background-color: #212121;
+            height: 100%;
+            width: 100%;
+            max-height: 55px;
+            max-width: 100%;
+            position: absolute;
+            bottom: 0px;
+            z-index: 11;
+            }
+    
+  .white-box .box-title {
+        font-weight: 500;
+        text-transform: uppercase;
+        font-size: 15px;
+    }
+
+    .two-part li span {
+    font-size: 30px;
+    }
+
+        .icons {
+            width: 23%;
+        }
+
+            .header {
+            left: 0px;
+        }
+
+        .scroll-content {
+
+            left:0px;
+        }
+
+            .rowuebersicht {
+        margin-bottom: 5px;
+        margin-left: -30px;
+        margin-right: -10px;
+    }
+
+     .svgsheepblack {
+        background: url('../assets/images/sheep_black.svg') no-repeat;
+        background-size: contain;
+        height: 45px;
+        margin-bottom: -6px;
+    }
+
+      .svgchicken {
+        background: url('../assets/images/chicken_black.svg') no-repeat;
+        background-size: contain;
+        height: 38px;
+        margin-bottom: -2px;
+    }
+    }
+}
+
+
+ion-item.schafe_ablamm.item.item-block.item {
+    text-align: left;
+    font-size: 12px;
+    padding-left: 0px;
+    }
+
+ion-item.menu_schafe_list.item.item-block.item-ios {
+    background-color: #e8e8e8;
+}

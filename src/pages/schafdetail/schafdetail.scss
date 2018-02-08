@@ -1,0 +1,21 @@
+page-schafdetail {
+    
+
+
+     @media only screen and (min-width:667px) 
+    {
+        .background {
+            background-color: #e8e8e8;
+            font-size: 14px;
+        }
+    }
+
+    @media only screen and (min-width : 0px) and (max-width : 666px) 
+    {
+        .background {
+            background-color: #e8e8e8;
+            font-size: 12px;
+        }
+    }
+
+}

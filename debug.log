@@ -1,0 +1,11 @@
+[0622/191104.953:ERROR:process_reader_win.cc(151)] SuspendThread: Zugriff verweigert (0x5)
+[0622/191104.954:ERROR:process_reader_win.cc(151)] SuspendThread: Zugriff verweigert (0x5)
+[0622/191104.954:ERROR:process_reader_win.cc(151)] SuspendThread: Zugriff verweigert (0x5)
+[0622/191104.954:ERROR:process_reader_win.cc(151)] SuspendThread: Zugriff verweigert (0x5)
+[0622/191104.954:ERROR:process_reader_win.cc(151)] SuspendThread: Zugriff verweigert (0x5)
+[0622/191104.955:ERROR:process_reader_win.cc(151)] SuspendThread: Zugriff verweigert (0x5)
+[0622/191104.955:ERROR:process_reader_win.cc(151)] SuspendThread: Zugriff verweigert (0x5)
+[0622/191104.955:ERROR:process_reader_win.cc(151)] SuspendThread: Zugriff verweigert (0x5)
+[0622/191104.955:ERROR:process_reader_win.cc(151)] SuspendThread: Zugriff verweigert (0x5)
+[0622/191104.955:ERROR:exception_snapshot_win.cc(87)] thread ID 220 not found in process
+[0622/191104.955:WARNING:crash_report_exception_handler.cc(62)] ProcessSnapshotWin::Initialize failed

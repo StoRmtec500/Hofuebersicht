@@ -1,0 +1,107 @@
+page-login {
+
+    #skip{
+        position: absolute;
+        bottom: 20px;
+        width: 100%;
+        background: none !important;
+        text-align: center;
+          cursor: pointer; 
+          z-index: 5;
+    }
+
+    .scroll-content {
+        align-content: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        overflow: hidden;
+    }
+
+    .header {
+        color: #fff;
+        font-size: 30px;
+        font-weight: bold;
+     //   padding-top: 5%;
+    }
+
+    .login {
+        //margin-top: 50%;
+        opacity: .9;
+        border-radius: 10px;
+        box-shadow: 3px 3px 5px #4d4d4d;
+        background-color: #eee;
+        max-width: 430px;
+        margin: auto;
+        padding-top: 0px;
+        width: 100%;
+        font-family: "Quicksand";
+        height: 100%;
+        top: 0;
+        left:0;
+        bottom: 0;
+        max-height: 240px;
+        min-height: 220px;
+    }
+
+    .loginheader{
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .footer {
+        font-size: 16px;
+        width: 100%;
+        text-align: right;
+        color: #fff;
+    }
+    .logininputtop {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        font-size: 12px;
+    }
+
+    .invalid {
+        border-bottom: 1px solid #FF6153;
+    }    
+
+
+
+    .logininputbottom {
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        font-size: 12px;
+    }
+
+   .loginbutton {
+       border-radius: 10px;
+   }
+
+    .background {
+        background: url('../assets/background/bg2.jpg') no-repeat center center fixed;
+         -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;         /* Generic*/
+    opacity: 1;
+    overflow: hidden;
+    }
+
+}
+
+
+    .logintoast  { > div {
+           width: 550px;
+           height: 180px;
+           color:  #FF6151 !important;
+           border-radius: 10px !important;
+    }
+    }
+
+    .alert-message {
+        overflow: hidden !important;
+    }
+
+
+

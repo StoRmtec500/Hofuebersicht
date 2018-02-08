@@ -1,0 +1,28 @@
+<div class="topnav" ion-fixed no-bounce></div>
+<div class="navbar-left-fixed-full" ion-fixed no-bounce>
+  <button class="icons firsticon" ion-button (click)="home()" icon-only clear >
+    <ion-icon class="svgiconhome"></ion-icon>
+  </button>
+    <button class="icons" ion-button  icon-only clear>
+    <ion-icon class="svgiconsheep"></ion-icon>
+    </button>
+    <button class="icons" ion-button icon-only clear>
+    <ion-icon class="svgiconchicken"></ion-icon>
+    </button>
+  <button class="icons lasticon" ion-button #loginpage (click)="logout()" icon-only clear>
+    <ion-icon name="log-out"></ion-icon>
+  </button>
+</div>
+
+<ion-split-pane when="(min-width: 667px)">
+ <ion-menu [content]="content">
+
+<ion-nav [root]="sideRoot" #sidemenu swipeBackEnabled="false"></ion-nav>
+</ion-menu>
+
+  <!-- main navigation -->
+
+
+
+<ion-nav [root]="mainPage" #content  swipeBackEnabled="false" main></ion-nav>
+</ion-split-pane>
