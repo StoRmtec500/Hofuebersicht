@@ -20,7 +20,7 @@ export class StallSchafePage {
 
 root: any;
 
-  constructor(public navCtrl: NavController, public navParams: NavParams, public element: ElementRef, private authService: AuthServiceProvider) {
+  constructor(public navCtrl: NavController, public navParams: NavParams, public element: ElementRef) {
   
  this.element.nativeElement;
 }

@@ -1,5 +1,6 @@
 .vscode/
 .DS_Store
+.sourcemaps
 node_modules
 platforms/ios/build
 platforms/android
